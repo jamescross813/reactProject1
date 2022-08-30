@@ -1,4 +1,5 @@
 import './App.css';
+import List from "./List";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <section className="container">
 
         <h3>0 birthdays today</h3>
+        <List/>
       </section>
     </main>
   );
