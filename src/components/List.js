@@ -1,7 +1,6 @@
 import React from 'react';
 
 const List = ({info}) => {
-
   
   let infoList=()=>{
     return(
@@ -22,6 +21,7 @@ const List = ({info}) => {
           </article>
     )
   }
+
   return (
     <>
       {infoList()}
