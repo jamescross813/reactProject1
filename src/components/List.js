@@ -3,11 +3,15 @@ import React from 'react';
 const List = ({info}) => {
   
   let infoList=()=>{
+    
     return(
       info.map((i)=>{ 
         const {id, name, age, image, date} = i;       
-        return toRender(id, name, age, image, date) 
-      })
+          return(
+              toRender(id, name, age, image, date) 
+            )
+        }
+      )
     )
   }
 
