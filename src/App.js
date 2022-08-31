@@ -1,12 +1,12 @@
 import './App.css';
-import List from "./components/List";
-import data from "./data"
+
 import React, {useState} from 'react'
+import ListContainer from "./containers/ListContainer";
 
 function App() {
   
   return (
-    
+    <ListContainer/>
   );
 }
 
