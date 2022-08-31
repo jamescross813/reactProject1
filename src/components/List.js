@@ -6,7 +6,7 @@ const List = ({info}) => {
     
     return(
       info.map((i)=>{ 
-        const {id, name, age, image, date} = i;       
+        const {id, name, age, image, date} = i;
             if(dateCheck(date)){
               return toRender(id, name, age, image, date) 
             }
