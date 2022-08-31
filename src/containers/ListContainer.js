@@ -1,10 +1,9 @@
-import { Component } from "react";
 import React, {useState} from 'react'
 import List from "../components/List";
 
-class ListContainer extends Component{
+const ListContainer =()=>{
     
-    render(){
+  
         // const [info, setInfo] = useState(data);
         const info = "Hello"
         return(
@@ -16,7 +15,7 @@ class ListContainer extends Component{
                 </section>
             </>
         )
-    }
+   
 }
 
 export default ListContainer
