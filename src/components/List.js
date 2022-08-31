@@ -8,7 +8,8 @@ const List = ({info}) => {
       info.map((i)=>{ 
         const {id, name, age, image, date} = i;       
           return(
-              toRender(id, name, age, image, date) 
+            dateCheck(date)
+              // toRender(id, name, age, image, date) 
             )
         }
       )
@@ -16,6 +17,7 @@ const List = ({info}) => {
   }
 
   let toRender =(id, name, age, image, date)=>{
+
     return(<article key={id} className='person'>
             <img src={image} alt={name} />
             <div>
@@ -24,6 +26,15 @@ const List = ({info}) => {
             </div>
           </article>
     )
+  }
+
+  let dateCheck=(date)=>{
+    const today= new Date()
+    const day = today.getDate()
+    const month = today.getMonth() +1
+    const bDay = date[0]+date[1]
+    // if(month === bDay)
+    console.log(bDay)
   }
 
   return (
