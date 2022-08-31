@@ -1,11 +1,10 @@
 import './App.css';
-import List from "./List";
+import List from "./components/List";
 import data from "./data"
 import React, {useState} from 'react'
 
 function App() {
   const [info, setInfo] = useState(data)
-  console.log(info)
   return (
     <main>
       <section className="container">
