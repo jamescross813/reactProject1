@@ -1,9 +1,11 @@
 import React from 'react';
 
-const List = (info) => {
+const List = ({info}) => {
+
+  
   return (
     <>
-    
+      
       
     </>
   );
