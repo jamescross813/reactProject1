@@ -12,7 +12,7 @@ function App() {
 
         <h3>0 birthdays today</h3>
         <List info={info} />
-        <button>Clear</button>
+        <button onClick={()=>{console.log("clicked me!")}}>Clear</button>
       </section>
     </main>
   );
