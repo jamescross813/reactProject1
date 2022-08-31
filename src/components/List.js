@@ -32,9 +32,13 @@ const List = ({info}) => {
     const today= new Date()
     const day = today.getDate()
     const month = today.getMonth() +1
-    const bDay = date[0]+date[1]
-    // if(month === bDay)
-    console.log(bDay)
+    const bMonth = date[0]+date[1]
+    const bDay= date[3]+date[4]
+    if(month == bMonth){ 
+      if(day == bDay){
+        console.log(bMonth+"/"+bDay)
+      }
+    }
   }
 
   return (
