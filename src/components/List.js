@@ -7,10 +7,9 @@ const List = ({info}) => {
     return(
       info.map((i)=>{ 
         const {id, name, age, image, date} = i;       
-          return(
-            dateCheck(date)
-              // toRender(id, name, age, image, date) 
-            )
+            if(dateCheck(date)){
+              return toRender(id, name, age, image, date) 
+            }
         }
       )
     )
@@ -36,7 +35,7 @@ const List = ({info}) => {
     const bDay= date[3]+date[4]
     if(month == bMonth){ 
       if(day == bDay){
-        console.log(bMonth+"/"+bDay)
+        return true
       }
     }
   }
