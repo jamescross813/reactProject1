@@ -6,6 +6,12 @@ import ListContainer from "./containers/ListContainer";
 function App() {
   
   return (
+    
+    <>
+    <head>
+      <title>Birthdays</title>
+    </head>
+    <body>
     <div className="cntainer">
       <div className="row">
         <h1>Birthday reminders..</h1>
@@ -15,6 +21,8 @@ function App() {
         </div>
       
     </div>
+    </body>
+    </>
   );
 }
 
