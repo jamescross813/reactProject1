@@ -10,7 +10,7 @@ function App() {
       <div className="row">
         <h1>Birthday reminders..</h1>
       </div>
-        <div>
+        <div className="row">
           <ListContainer/>
         </div>
       
