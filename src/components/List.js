@@ -17,13 +17,13 @@ const List = ({info}) => {
 
   let toRender =(id, name, age, image, date)=>{
 
-    return(<article key={id} className='person'>
-            <img src={image} alt={name} />
+    return(<ul key={id} className='person'>
+            <img src={image} alt={name} className="img-thumbnail" />
             <div>
               <h4>{name}</h4>
               <p>{age} years</p>
             </div>
-          </article>
+          </ul>
     )
   }
 
@@ -42,8 +42,9 @@ const List = ({info}) => {
 
   return (
     <>
+    <li>
       {infoList()}
-      
+      </li>
     </>
   );
 };
