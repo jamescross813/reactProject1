@@ -12,15 +12,14 @@ function App() {
       <title>Birthdays</title>
     </head>
     <body>
-    <div className="cntainer">
-      <div className="row">
-        <h1>Birthday reminders..</h1>
-      </div>
+      <div className="cntainer">
         <div className="row">
-          <ListContainer/>
+          <h1>Birthday reminders..</h1>
         </div>
-      
-    </div>
+          <div className="row">
+            <ListContainer/>
+          </div>
+      </div>
     </body>
     </>
   );
