@@ -9,7 +9,7 @@ const ListContainer =()=>{
 
         return(
             <>
-                <section className="container">
+                <section className="card offset-3 col-3">
                         <h3>{info.length} birthdays today</h3>
                         <List info={info} />
                         <button onClick={()=>{console.log("clicked me!")}}>Clear</button>
