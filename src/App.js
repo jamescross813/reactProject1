@@ -6,7 +6,15 @@ import ListContainer from "./containers/ListContainer";
 function App() {
   
   return (
-    <ListContainer/>
+    <div className="cntainer">
+      <div className="row">
+        <h1>Birthday reminders..</h1>
+      </div>
+        <div>
+          <ListContainer/>
+        </div>
+      
+    </div>
   );
 }
 
