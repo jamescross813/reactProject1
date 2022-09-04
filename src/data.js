@@ -18,7 +18,7 @@ export default [
     {
       id: 3,
       name: 'Larry Little',
-      date: "01/14/1988",
+      date: "09/03/1988",
       age: 36,
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
@@ -26,7 +26,7 @@ export default [
     {
       id: 4,
       name: 'Sean Walsh',
-      date: "12/14/1988",
+      date: "09/03/1988",
       age: 34,
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
