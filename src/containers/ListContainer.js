@@ -11,7 +11,7 @@ const ListContainer =()=>{
             <>
                 <section className="card offset-3 col-3">
                         <h3>{info.length} birthdays today</h3>
-                        <li><List info={info} /></li>
+                        <List info={info} />
                         <button onClick={()=>{console.log("clicked me!")}}>Clear</button>
                 </section>
             </>
